@@ -21,7 +21,11 @@ body{
     margin-left: 15px;
     margin-top: 7px;
     width: 800px;
-    height: 150px;
+    height: 150px; 
+    transition: background-color 0.3s ease;   
+}
+.body:hover{
+    background-color: #FF6400;
 }
 
 .body h4,p{
